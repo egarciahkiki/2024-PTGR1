@@ -54,8 +54,6 @@
 - **filter_fasta.py:** Script to retrieve unique sequences of vertabrate PTGR1 orthologs from UniProt database.
 
 ## Python Libraries
-
-## Python Libraries
 - **pandas**
 - **numpy**
 - **matplotlib**
