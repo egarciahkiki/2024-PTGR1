@@ -3,8 +3,8 @@
 AMBERMD input files
 
 1. PTGR1 + NADPH 
-  1.1. Topology 
-    PTGR1-NADPH.parm7
+1.1. Topology 
+PTGR1-NADPH.parm7
   1.2. Coordinates 
     PTGR1-NADPH.rst7
   1.3. System Initial Structure 
