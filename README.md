@@ -12,7 +12,7 @@
 #### 1.3. System Initial Structure
 - **File:** PTGR1-NADPH.pdb
 
-### 2. PTGR1 + Licochalcone A Non-covalent
+### 2. PTGR1 + Non-covalent Licochalcone A 
 #### 2.1. Topology
 - **File:** PTGR1-LicA-NC.parm7
 
@@ -22,11 +22,11 @@
 #### 2.3. System Initial Structure
 - **File:** PTGR1-LicA-NC.pdb
 
-#### 2.4. Licochalcone A Non-covalent Params
+#### 2.4. Non-covalent Licochalcone A Params
 - **File:** LicA-NC.lib
 - **File:** LicA-NC.frcmod
 
-### 3. PTGR1 + Licochalcone A Covalent
+### 3. PTGR1 + Covalent Licochalcone A
 #### 3.1. Topology
 - **File:** PTGR1-LicA-C.parm7
 
@@ -36,7 +36,7 @@
 #### 3.3. System Initial Structure
 - **File:** PTGR1-LicA-C.pdb
 
-#### 3.4. Licochalcone A Covalent Params
+#### 3.4. Covalent Licochalcone A Params
 - **File:** LicA-C.prepin
 - **File:** LicA-C.frcmod
 
@@ -51,6 +51,9 @@
 - **06_lovofit.sh:** A script that calculates RMSD using mdlovofit and performs a fitting procedure on specific atoms with additional parameters, saving the results to files.
 - **07_FE_landscape.ipynb:** A script that analyzes data using PCA, plots a KDE for the first component, and generates a free energy landscape plot.
 - **08_FE_landscape_Markov.ipynb:** A script that analyzes data using PCA, plots a KDE for the first component, and generates a free energy landscape Markov plot.
+- **filter_fasta.py:** Script to retrieve unique sequences of vertabrate PTGR1 orthologs from UniProt database.
+
+## Python Libraries
 
 ## Python Libraries
 - **pandas**
