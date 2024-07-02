@@ -1,7 +1,5 @@
 # 2024-PTGR1
 
-# 2024-PTGR1
-
 ## AMBERMD Input Files
 
 ### 1. PTGR1 + NADPH
