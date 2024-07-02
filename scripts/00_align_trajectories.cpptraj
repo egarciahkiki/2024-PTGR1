@@ -1,0 +1,29 @@
+parm "topology.parm7"
+trajin md1/md?.nc
+trajin md1/md??.nc
+trajin md1/md???.nc
+strip :WAT,Na+,Cl-
+center :1-658
+image origin center
+autoimage
+reference "coordinates.rst7"
+rms reference ":1-660@CA,C,N,O"
+trajout "align_trajectorie.nc"
+go
+
+clear all
+
+parm "topology.parm7"
+parmstrip :WAT,Na+,Cl-
+parmwrite out "dry_topology.parm7"
+go
+
+clear all
+
+parm "topology.parm7"
+trajin "coordinates.rst7"
+strip :WAT,Na+,Cl-
+trajout "dry_coordinates.rst7" restart
+go
+
+quit

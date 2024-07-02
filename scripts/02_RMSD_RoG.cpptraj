@@ -1,0 +1,10 @@
+parm "dry_topology.parm7"
+trajin "align_trajectorie.nc"
+reference "dry_coordinates.rst7"
+center :1-660
+image origin center
+autoimage
+rms reference ":6-324,336-654@CA,C,N,O" out rmsd_fullprotein.dat
+radgyr :6-324,336-654&!(@H=) out RoG_fullprotein.dat mass nomax
+go
+clear all

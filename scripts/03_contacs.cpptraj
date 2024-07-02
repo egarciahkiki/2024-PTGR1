@@ -1,0 +1,6 @@
+parm "dry_topology.parm7"
+trajin "align_trajectorie.nc" 1 last 50
+
+nativecontacts name 2Y05_ref :NPH&!@H= :1-329&!@H=  byresidue out 2Y05_ref_res.dat noimage mindist maxdist distance 5.5 resout 2Y05_ref_pairs.dat series seriesout 2Y05_ref_native.series savenonnative nncontactpdb 2Y05_ref_nonative.pdb seriesnnout 2Y05_ref_nonative.series writecontacts 2Y05_ref_contacts.out contactpdb 2Y05_ref_native.pdb   resseries present resseriesout resseries.series
+go
+quit
