@@ -3,7 +3,7 @@ trajin md1/md?.nc
 trajin md1/md??.nc
 trajin md1/md???.nc
 strip :WAT,Na+,Cl-
-center :1-658
+center :1-660
 image origin center
 autoimage
 reference "coordinates.rst7"
